@@ -1,0 +1,282 @@
+body {
+	
+	background-color: #EDDAD3;
+	margin: 0 auto;
+	/*
+	cursor: url(/lib/img/cursor.png);
+	*/
+}
+
+#page {
+	position: relative;
+	height: 100vh;
+	width: 1024px;
+	margin: auto;
+}
+
+.title {
+	font-family: 'Nevis';
+	color: white;
+	font-size: 60px;
+	position: absolute;
+	left: 85px;
+	top: 310px;
+}
+
+.timer {
+	position: absolute;
+	left: 428px;
+	top: 10px;
+}
+
+@font-face {
+font-family: 'Nevis';
+src: url('..lib/fonts/nevis.ttf');
+}
+
+.pic {
+	
+	position: absolute;
+  	display: inline-block;
+  	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.backgroundimage {
+	width: 1024px;
+  	height: 762px;
+	background-image: url('../lib/img/LandingPhotos/landingpage0.png');
+}
+
+.pic.kevin_2 {
+	width: 202px;
+  	height: 252px;
+  	left: 634px;
+  	top: 95px;
+	background-image: url('../lib/img/LandingPhotos/Kevin_2.png');
+}
+
+.pic.kevin_20 {
+	width: 202px;
+  	height: 252px;
+  	left: 634px;
+  	top: 95px;
+	background-image: url('../lib/img/LandingPhotos/Kevin_20.png');
+}
+
+.pic.red {
+	width: 231px;
+  	height: 154px;
+  	left: 518px;
+  	top: 226px;
+	background-image: url('../lib/img/LandingPhotos/Antoni_red.jpg');
+}
+
+.pic.red0 {
+	width: 231px;
+  	height: 154px;
+  	left: 518px;
+  	top: 226px;
+	background-image: url('../lib/img/LandingPhotos/Antoni_red0.png');
+}
+
+
+.pic.tiger {
+	width: 241px;
+  	height: 149px;
+  	left: 233px;
+  	top: 240px;
+	background-image: url('../lib/img/LandingPhotos/Bianca_tiger.png');
+}
+
+.pic.tiger0 {
+	width: 241px;
+  	height: 149px;
+  	left: 233px;
+  	top: 240px;
+	background-image: url('../lib/img/LandingPhotos/Bianca_tiger0.png');
+}
+
+.pic.subway {
+	width: 132px;
+  	height: 196px;
+  	left: 780px;
+  	top: 326px;
+	background-image: url('../lib/img/LandingPhotos/Antoni_subway.jpg');
+}
+
+.pic.subway0 {
+	width: 132px;
+  	height: 196px;
+  	left: 780px;
+  	top: 326px;
+	background-image: url('../lib/img/LandingPhotos/Antoni_subway0.png');
+}
+
+.pic.wet {
+	width: 115px;
+  	height: 145px;
+  	left: 330px;
+  	top: 133px;
+	background-image: url('../lib/img/LandingPhotos/Tiffany_wet.png');
+}
+
+.pic.wet0 {
+	width: 115px;
+  	height: 145px;
+  	left: 330px;
+  	top: 133px;
+	background-image: url('../lib/img/LandingPhotos/Tiffany_wet0.png');
+}
+
+.pic.kevin_1 {
+	width: 153px;
+  	height: 189px;
+  	left: 101px;
+  	top: 270px;
+	background-image: url('../lib/img/LandingPhotos/Kevin_1.png');
+}
+
+.pic.kevin_10 {
+	width: 153px;
+  	height: 189px;
+  	left: 101px;
+  	top: 270px;
+	background-image: url('../lib/img/LandingPhotos/Kevin_10.png');
+}
+
+.pic.kanpai {
+	width: 258px;
+  	height: 160px;
+  	left: 396px;
+  	top: 154px;
+	background-image: url('../lib/img/LandingPhotos/Bianca_kanpai.png');
+}
+
+.pic.kanpai0 {
+	width: 258px;
+  	height: 160px;
+  	left: 396px;
+  	top: 154px;
+	background-image: url('../lib/img/LandingPhotos/Bianca_kanpai0.png');
+}
+
+.pic.velvedere {
+	width: 147px;
+  	height: 184px;
+  	left: 210px;
+  	top: 95px;
+	background-image: url('../lib/img/LandingPhotos/Tiffany_velvedere.png');
+}
+
+.pic.velvedere0 {
+	width: 147px;
+  	height: 184px;
+  	left: 210px;
+  	top: 95px;
+	background-image: url('../lib/img/LandingPhotos/Tiffany_velvedere0.png');
+}
+
+.pic.lumber {
+	width: 327px;
+  	height: 221px;
+  	left: 388px;
+  	top: 341px;
+	background-image: url('../lib/img/LandingPhotos/Antoni_lumber.jpg');
+}
+
+.pic.lumber0 {
+	width: 327px;
+  	height: 221px;
+  	left: 388px;
+  	top: 341px;
+	background-image: url('../lib/img/LandingPhotos/Antoni_lumber0.png');
+}
+
+.pic.hill {
+	width: 216px;
+  	height: 271px;
+  	left: 246px;
+  	top: 373px;
+	background-image: url('../lib/img/LandingPhotos/Chelsea_hill.png');
+}
+
+.pic.hill0 {
+	width: 216px;
+  	height: 271px;
+  	left: 246px;
+  	top: 373px;
+	background-image: url('../lib/img/LandingPhotos/Chelsea_hill0.png');
+}
+
+.pic.lonely {
+	width: 222px;
+  	height: 169px;
+  	left: 558px;
+  	top: 411px;
+	background-image: url('../lib/img/LandingPhotos/Carlie_lonely.jpg');
+}
+
+.pic.lonely0 {
+	width: 222px;
+  	height: 169px;
+  	left: 558px;
+  	top: 411px;
+	background-image: url('../lib/img/LandingPhotos/Carlie_lonely0.png');
+}
+
+.pic.kelly_1 {
+	width: 91px;
+  	height: 89px;
+  	left: 660px;
+  	top: 399px;
+	background-image: url('../lib/img/LandingPhotos/Kelly_1.png');
+}
+
+.pic.kelly_10 {
+	width: 91px;
+  	height: 89px;
+  	left: 660px;
+  	top: 399px;
+	background-image: url('../lib/img/LandingPhotos/Kelly_10.png');
+}
+
+.pic.kelly_2 {
+	width: 165px;
+	height: 165px;
+	left: 442px;
+  	top: 553px;
+	background-image: url('../lib/img/LandingPhotos/Kelly_2.png');
+}
+
+.pic.kelly_20 {
+	width: 165px;
+	height: 165px;
+	left: 442px;
+  	top: 553px;
+	background-image: url('../lib/img/LandingPhotos/Kelly_20.png');
+}
+
+/*
+
+
+.cursor {
+	background-image: url('../lib/img/cursor.png');
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 50px;
+	width: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+*/
+.box {
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 300px; 
+	top: 200px;
+	height: 200px;
+	width: 200px;
+	background-size: 100% auto;
+}
