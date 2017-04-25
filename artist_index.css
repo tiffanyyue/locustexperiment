@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+@font-face {
+font-family: 'Courier';
+src: url('..lib/fonts/couriernew.ttf');
+}
+
+body {
+	padding-top: 50px;
+	padding-left: 50px;
+	font-family: 'Courier';
+	font-size: 12px;
+	text-align: left;
+}
+
+p {
+	margin: auto;
+
+}
+
+#title {
+	font-size: 18px;
+}
+
+.heading {
+	font-size: 15px;
+}
+
+.chunk {
+	padding: 80px;
+	line-height: 1.3em;
+}
+
+#main {
+	width: 30%;
+	height: 100%;
+	background-color: #ffd1d8;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+.wide-tracked {
+	letter-spacing: 2em;
+}
+
+#title {
+	position: fixed;
+	left: 75px;
+	top: 130px;
+}
+
+#gif {
+	width: 500px;
+	height: auto;
+	position: fixed;
+	bottom: -140px;
+	right: -180px;
+	z-index: 5;
+}
+
+#info {
+	position: absolute;
+	right: 20%;
+	width: 50%;
+	padding-bottom: 200px;
+}
+
+#issue {
+	font-family: 'Courier';
+	position: absolute;
+	right: 67%;
+	top: 350px;
+	z-index: 5;
+	transform: rotate(7deg);
+}
+
+.timer {
+	position: fixed;
+	left: 75px;
+	top: 330px;
+	transform: rotate(7deg);
+}
+
+#meme {
+	transform: rotate(7deg);
+	position: absolute;
+	right: 0px;
+	padding: 0px;
+}
+
